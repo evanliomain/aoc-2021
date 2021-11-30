@@ -45,7 +45,7 @@
         {
           "type": "formula",
           "as": "icon",
-          "expr": "'paris' === datum.agency ? paris : 'nantes' === datum.agency ? nantes : 'bordeaux' === datum.agency ? bordeaux : 'luxembourg' === datum.agency ? luxembourg : 'strasbourg' === datum.agency ? strasbourg : 'lille' === datum.agency ? lille : ''"
+          "expr": "'paris' === datum.agency ? paris : 'nantes' === datum.agency ? nantes : 'bordeaux' === datum.agency ? bordeaux : 'luxembourg' === datum.agency ? luxembourg : 'strasbourg' === datum.agency ? strasbourg : 'lille' === datum.agency ? lille : unknown"
         },
         {
           "type": "formula",
@@ -93,12 +93,12 @@
         {
           "type": "formula",
           "as": "icon",
-          "expr": "'paris' === datum.agency ? paris : 'nantes' === datum.agency ? nantes : 'bordeaux' === datum.agency ? bordeaux : 'luxembourg' === datum.agency ? luxembourg : 'strasbourg' === datum.agency ? strasbourg : 'lille' === datum.agency ? lille : ''"
+          "expr": "'paris' === datum.agency ? paris : 'nantes' === datum.agency ? nantes : 'bordeaux' === datum.agency ? bordeaux : 'luxembourg' === datum.agency ? luxembourg : 'strasbourg' === datum.agency ? strasbourg : 'lille' === datum.agency ? lille : unknown"
         },
         {
           "type": "formula",
           "as": "title",
-          "expr": "'paris' === datum.agency ? 'Paris' : 'nantes' === datum.agency ? 'Nantes' : 'bordeaux' === datum.agency ? 'Bordeaux' : 'luxembourg' === datum.agency ? 'Luxembourg' : 'strasbourg' === datum.agency ? 'Strasbourg' : 'lille' === datum.agency ? 'Lille' : ''"
+          "expr": "'paris' === datum.agency ? 'Paris' : 'nantes' === datum.agency ? 'Nantes' : 'bordeaux' === datum.agency ? 'Bordeaux' : 'luxembourg' === datum.agency ? 'Luxembourg' : 'strasbourg' === datum.agency ? 'Strasbourg' : 'lille' === datum.agency ? 'Lille' : 'Inconnu'"
         },
         {
           "type": "collect",
@@ -545,6 +545,11 @@
       "name": "star",
       "react": false,
       "value": "M0.20249999999999996 -0.16666666666666666 L0 -0.8333333333333333 L-0.20249999999999996 -0.16666666666666666 L-0.8333333333333333 -0.16666666666666666 L-0.31833333333333336 0.20083333333333334 L-0.5141666666666667 0.8333333333333333 L0 0.4424999999999999 L0.5149999999999999 0.8333333333333333 L0.31916666666666665 0.20083333333333334 L0.8333333333333333 -0.16666666666666666"
+    },
+    {
+      "name": "unknown",
+      "react": false,
+      "value": "M0.000009425277967111758 -1 c-0.3311162985048367 0 -0.6003525053959716 0.2471056542242525 -0.6003525053959716 0.550825811437889 h0.29995004602677405 c0 -0.13828139481546878 0.13470607270659424 -0.2508820489297597 0.30040245936919757 -0.2508820489297597 c0.16567753610666902 0 0.30037732529461847 0.11260065411429093 0.30037732529461847 0.2508820489297597 v0.04353850068961617 c0 0.14697150110118665 -0.06466997389198002 0.2155875247020827 -0.16283738567923264 0.3192844328967335 c-0.1280015583126239 0.1352904399405579 -0.28743327688639086 0.30390237925433483 -0.28743327688639086 0.6654183409625722 h0.300006597694577 c0 -0.2420662722711464 0.09515760635640746 -0.34287904540784747 0.2054207915348437 -0.4594508833056335 c0.10913215182237748 -0.11528371657560801 0.24480588640026643 -0.2588307000153946 0.24480588640026643 -0.5252518905536723 v-0.04353850068961617 C0.6003430801180044 -0.7528943457757475 0.33113200730144865 -1 0.000009425277967111758 -1 z M-0.145441464311185 0.6965500340880886 h0.29995004602677405 v0.29995004602677405 h-0.29995004602677405 z"
     }
   ]
 }

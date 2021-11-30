@@ -58,8 +58,8 @@ async function main() {
   );
 
   // Replace data call by a local file in case of timeout
-  // const data = await getData({ year, leaderboard });
-  const data = dataFallback;
+  const data = await getData({ year: aocYear, leaderboard });
+  // const data = dataFallback;
 
   await writeFile(`dist/data-raw-${aocYear}-${day}-${leaderboard}.json`)(
     JSON.stringify(data, 2)
@@ -70,8 +70,7 @@ async function main() {
   console.log('Transform data');
 
   let year = 2021;
-  month = '01';
-  day = '11';
+  month = '12';
 
   const chartData = statsToChartData(year, month, day, daysWithNoPoint)(data);
   await writeFile(`dist/data-${year}-${day}-${leaderboard}.json`)(
