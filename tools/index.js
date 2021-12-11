@@ -39,3 +39,5 @@ module.exports.parseLinesWithRegexp = require('./parse-lines-with-regexp');
 module.exports.matchRegexp = require('./match-regexp');
 module.exports.euclideDivision = require('./euclide-division');
 module.exports.allMatches = require('./all-matches');
+module.exports.someMatrix = require('./some-matrix');
+module.exports.everyMatrix = require('./every-matrix');
