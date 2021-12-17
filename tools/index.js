@@ -42,3 +42,4 @@ module.exports.allMatches = require('./all-matches');
 module.exports.someMatrix = require('./some-matrix');
 module.exports.everyMatrix = require('./every-matrix');
 module.exports.reduceMatrix = require('./reduce-matrix');
+module.exports.gradient = require('./gradient');
