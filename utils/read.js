@@ -13,6 +13,9 @@ module.exports = n => {
     if (T.isNumber(sample)) {
       suffix += sample;
     }
+    if (T.isString(sample)) {
+      suffix += sample;
+    }
 
     return fs
       .readFileSync(`./days/${day}/sample/${suffix}`, 'utf8')
